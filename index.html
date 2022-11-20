@@ -3,8 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>ㅇㅅㅂㅅ</title>
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <img src="ysbx_whitebg.gif" alt="logo"></img>
+    <div class="logo">
+      <picture>
+        <source srcset="ysbx_blackbg.gif" media="(prefers-color-scheme:dark)">
+        <img src="ysbx_whitebg.gif" alt="logo"></img>
+      </picture>
+    </div>
   </body>
 </html>
