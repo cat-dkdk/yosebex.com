@@ -3,7 +3,7 @@
   width: 200px; /* can be anything */
   position: relative;
 }
-img {
+.logo_ysbx {
   max-height: 540px;
   max-width: 540px;
   width: auto;
@@ -14,4 +14,13 @@ img {
   left: 0;
   right: 0;
   margin: auto;
+}
+.center {
+  display: flex;
+  margin-top: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.center a {
+  margin: 0 5px;
 }
