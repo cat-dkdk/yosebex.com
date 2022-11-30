@@ -24,3 +24,9 @@
 .center a {
   margin: 0 5px;
 }
+.center a.counter {
+  margin: 0 3px;
+}
+.center a.youtube {
+  margin: 0 10px;
+}
