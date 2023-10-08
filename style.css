@@ -1,38 +1,67 @@
-.frame {
-  height: 200px; /* can be anything */
-  width: 200px; /* can be anything */
-  position: relative;
-}
-.logo_ysbx {
-  max-height: 500px;
-  max-width: 500px;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-a:hover {
-  background-color: gray;
-}
-.line1 {
-  display: flex;
-  margin-top: 90%;
-  align-items: center;
-  justify-content: center;
-}
-.line1 a {
-  margin: 0 12px;
-}
-.line2 {
-  display: flex;
-  margin-top: 12px;
-  align-items: center;
-  justify-content: center;
-}
-.line2 a {
-  margin: 0 5px;
-}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: azure;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+    background-image: url("231007_024_trans.png");
+    background-position-x: right;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50vw;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .intro a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: azure;
+  }
+  
+  .intro a:hover {
+    background-color: #ddd;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: azure;
+  }
+  
+  .social-links a:hover {
+    background-color: #ddd;
+  }
+  
+  .textbox {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: azure;
+  }
+
+  .comment {
+    text-align: left;
+    margin: 20px;
+  }
